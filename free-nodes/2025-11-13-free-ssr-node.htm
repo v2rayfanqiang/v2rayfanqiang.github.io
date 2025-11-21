@@ -354,37 +354,13 @@ sudo apt install -y python3-pip git curl
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2025-11-12-node-share-links.htm">V2ray翻墙 | 11月12日22.8M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点节点机场分享</a></p>
+        <p>下一个：<a href="/free-nodes/2025-11-14-clash-windows.htm">V2ray翻墙 | 11月14日21.9M/S|免费SSR节点/V2ray节点/Clash节点/Singbox节点/Shadowrocket节点节点机场分享</a></p>
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Matsuri 的多节点测速机制是怎样的？</h5></div>
+    <div class="panel-heading"><h5>Hysteria2 协议的主要特点是什么？</h5></div>
     <div class="panel-body">
-        Matsuri 使用并发测速机制，可同时对多个节点进行延迟与带宽测试。测试结果会自动排序，并可根据延迟或速度自动切换最优节点，提升连接体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 的 TLS 配置如何增强抗封锁能力？</h5></div>
-    <div class="panel-body">
-        TLS 配置可将流量伪装成正常 HTTPS 请求，隐藏真实数据特征。结合域名伪装、WebSocket 或 QUIC 等传输方式，可有效绕过封锁，提高节点长期可用性和连接稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 的 QUIC 多路复用在游戏中有什么优势？</h5></div>
-    <div class="panel-body">
-        QUIC 多路复用减少握手次数和延迟，适合高频短连接场景，如游戏和即时通讯。它能提高吞吐量和连接稳定性，在高丢包或高延迟环境下保持低延迟网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>如何检测并处理订阅中的死节点？</h5></div>
-    <div class="panel-body">
-        定期运行批量测速脚本或使用客户端内置的 url-test、health-check 功能，自动标记或移除响应超时或重连失败的节点。结合订阅更新策略可自动替换或提醒用户维护节点列表。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 的 QUIC 传输模式有哪些优势？</h5></div>
-    <div class="panel-body">
-        QUIC 传输减少握手次数，支持多路复用和 UDP 基础，降低延迟并提高吞吐量。在不稳定或高丢包环境下，QUIC 可保证视频、游戏或即时通讯的稳定性和流畅体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 的 QUIC 协议如何降低延迟？</h5></div>
-    <div class="panel-body">
-        QUIC 协议基于 UDP，多路复用和拥塞控制优化，可减少握手延迟和包重传次数。Hysteria2 利用 QUIC 的特性，使高延迟或丢包网络下依然保持低延迟和高稳定性。<hr />    </div>
+        Hysteria2 是新一代基于 QUIC 的高速代理协议，支持自适应拥塞控制和零 RTT 连接。相比传统 TCP 协议，它能在高延迟或丢包环境下保持稳定速度，特别适合跨境访问或实时传输场景。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Clash 如何通过策略组实现多节点负载均衡？</h5></div>
@@ -392,14 +368,39 @@ sudo apt install -y python3-pip git curl
         Clash 支持策略组功能，可以根据节点延迟、地区或用途自动选择最佳节点处理流量，实现多节点负载均衡。有效提高访问速度和稳定性，保证网页浏览、视频播放和游戏流畅。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 协议的主要特点是什么？</h5></div>
+    <div class="panel-heading"><h5>Hysteria2 的 QUIC 协议如何降低延迟？</h5></div>
     <div class="panel-body">
-        Hysteria2 是新一代基于 QUIC 的高速代理协议，支持自适应拥塞控制和零 RTT 连接。相比传统 TCP 协议，它能在高延迟或丢包环境下保持稳定速度，特别适合跨境访问或实时传输场景。<hr />    </div>
+        QUIC 协议基于 UDP，多路复用和拥塞控制优化，可减少握手延迟和包重传次数。Hysteria2 利用 QUIC 的特性，使高延迟或丢包网络下依然保持低延迟和高稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>V2Ray 的 TLS 配置如何增强抗封锁能力？</h5></div>
+    <div class="panel-body">
+        TLS 配置可将流量伪装成正常 HTTPS 请求，隐藏真实数据特征。结合域名伪装、WebSocket 或 QUIC 等传输方式，可有效绕过封锁，提高节点长期可用性和连接稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>如何检测并处理订阅中的死节点？</h5></div>
+    <div class="panel-body">
+        定期运行批量测速脚本或使用客户端内置的 url-test、health-check 功能，自动标记或移除响应超时或重连失败的节点。结合订阅更新策略可自动替换或提醒用户维护节点列表。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Matsuri 的多节点测速机制是怎样的？</h5></div>
+    <div class="panel-body">
+        Matsuri 使用并发测速机制，可同时对多个节点进行延迟与带宽测试。测试结果会自动排序，并可根据延迟或速度自动切换最优节点，提升连接体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Hysteria2 的 QUIC 多路复用在游戏中有什么优势？</h5></div>
+    <div class="panel-body">
+        QUIC 多路复用减少握手次数和延迟，适合高频短连接场景，如游戏和即时通讯。它能提高吞吐量和连接稳定性，在高丢包或高延迟环境下保持低延迟网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>如何安全地在服务器上部署 V2Ray（最小权限原则）？</h5></div>
     <div class="panel-body">
         使用独立非 root 用户运行 V2Ray，限制服务访问端口并仅开放必要端口；配置防火墙规则与 Fail2ban 限制暴力登录；定期更新内核与 V2Ray 版本，并关闭不必要的系统服务以减少攻击面。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>V2Ray 的 QUIC 传输模式有哪些优势？</h5></div>
+    <div class="panel-body">
+        QUIC 传输减少握手次数，支持多路复用和 UDP 基础，降低延迟并提高吞吐量。在不稳定或高丢包环境下，QUIC 可保证视频、游戏或即时通讯的稳定性和流畅体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Clash 如何通过规则文件优化节点分流？</h5></div>
@@ -433,16 +434,16 @@ sudo apt install -y python3-pip git curl
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/free-nodes/2025-10-25-shadowrocket-node.htm" title="V2ray翻墙 | 10月25日22.6M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Singbox节点/Clash节点节点机场分享">V2ray翻墙 | 10月25日22.6M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Singbox节点/Clash节点节点机场分享</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-8-free-clash-subscribe.htm" title="V2ray翻墙 | 11月8日21.3M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点节点机场分享">V2ray翻墙 | 11月8日21.3M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-9-free-shadowrocket-node.htm" title="V2ray翻墙 | 10月9日21.3M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点节点机场分享">V2ray翻墙 | 10月9日21.3M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-14-free-v2ray-subscribe.htm" title="V2ray翻墙 | 10月14日19.7M/S|免费SSR节点/V2ray节点/Singbox节点/Shadowrocket节点/Clash节点节点机场分享">V2ray翻墙 | 10月14日19.7M/S|免费SSR节点/V2ray节点/Singbox节点/Shadowrocket节点/Clash节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-22-clash-v2ray-ss-ssr.htm" title="V2ray翻墙 | 10月22日19.7M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点节点机场分享">V2ray翻墙 | 10月22日19.7M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-4-free-high-speed-nodes.htm" title="V2ray翻墙 | 10月4日19.2M/S|免费SSR节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点节点机场分享">V2ray翻墙 | 10月4日19.2M/S|免费SSR节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-5-shadowrocket-node.htm" title="V2ray翻墙 | 11月5日19.8M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/SSR节点/Clash节点节点机场分享">V2ray翻墙 | 11月5日19.8M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/SSR节点/Clash节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-16-shadowrocket-node.htm" title="V2ray翻墙 | 10月16日18M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Clash节点/SSR节点节点机场分享">V2ray翻墙 | 10月16日18M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Clash节点/SSR节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-19-free-subscribe-node.htm" title="V2ray翻墙 | 10月19日22.3M/S|免费SSR节点/Singbox节点/Clash节点/V2ray节点/Shadowrocket节点节点机场分享">V2ray翻墙 | 10月19日22.3M/S|免费SSR节点/Singbox节点/Clash节点/V2ray节点/Shadowrocket节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-13-free-node-subscribe.htm" title="V2ray翻墙 | 10月13日20.6M/S|免费Singbox节点/SSR节点/V2ray节点/Clash节点/Shadowrocket节点节点机场分享">V2ray翻墙 | 10月13日20.6M/S|免费Singbox节点/SSR节点/V2ray节点/Clash节点/Shadowrocket节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-7-free-v2ray-subscribe.htm" title="V2ray翻墙 | 11月7日19.2M/S|免费Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Clash节点节点机场分享">V2ray翻墙 | 11月7日19.2M/S|免费Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Clash节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-21-free-clash-subscribe.htm" title="V2ray翻墙 | 10月21日22.1M/S|免费Clash节点/Shadowrocket节点/Singbox节点/V2ray节点/SSR节点节点机场分享">V2ray翻墙 | 10月21日22.1M/S|免费Clash节点/Shadowrocket节点/Singbox节点/V2ray节点/SSR节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-21-free-shadowrocket-node.htm" title="V2ray翻墙 | 11月21日22M/S|免费Clash节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点节点机场分享">V2ray翻墙 | 11月21日22M/S|免费Clash节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-17-free-ssr-node.htm" title="V2ray翻墙 | 10月17日19M/S|免费Clash节点/V2ray节点/Singbox节点/SSR节点/Shadowrocket节点节点机场分享">V2ray翻墙 | 10月17日19M/S|免费Clash节点/V2ray节点/Singbox节点/SSR节点/Shadowrocket节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-3-node-share.htm" title="V2ray翻墙 | 10月3日20.5M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点节点机场分享">V2ray翻墙 | 10月3日20.5M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-15-clash-node-daily-updates.htm" title="V2ray翻墙 | 11月15日21.9M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点节点机场分享">V2ray翻墙 | 11月15日21.9M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-20-free-clash-subscribe.htm" title="V2ray翻墙 | 11月20日19.8M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Clash节点/Singbox节点节点机场分享">V2ray翻墙 | 11月20日19.8M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Clash节点/Singbox节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-11-free-ssr-subscribe.htm" title="V2ray翻墙 | 10月11日18.7M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点节点机场分享">V2ray翻墙 | 10月11日18.7M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-17-clash-node-daily-updates.htm" title="V2ray翻墙 | 11月17日18M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Singbox节点节点机场分享">V2ray翻墙 | 11月17日18M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Singbox节点节点机场分享</a></li>
                     </ul>
     </div>
 </div>
@@ -454,7 +455,7 @@ sudo apt install -y python3-pip git curl
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">13</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+                <h4><span class="badge" style="float: right;">20</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
