@@ -361,39 +361,14 @@ sudo systemctl start clash
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Mellow 与 Clash 的核心区别是什么？</h5></div>
-    <div class="panel-body">
-        Mellow 采用基于透明代理的架构，适合路由或系统级流量重定向，而 Clash 更偏向规则式应用代理。Mellow 的灵活性更高，但配置复杂；Clash 则兼顾易用性与功能扩展性。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>Hiddify Next 订阅更新后节点消失，如何恢复？</h5></div>
     <div class="panel-body">
         先检查订阅源是否更改格式或被下架，尝试重新粘贴订阅链接并手动刷新；若仍缺失，联系订阅提供方确认是否停用某些节点或使用了新的访问权限机制（例如 token 验证）。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Potatso Lite 的节点导入方式有哪些？</h5></div>
-    <div class="panel-body">
-        Potatso Lite 支持通过手动添加节点信息或扫描二维码导入节点。虽然不支持自动订阅更新，但对轻量用户来说，手动方式足够使用，方便在 iOS 设备上管理节点。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>Hiddify Next 如何导入订阅？</h5></div>
     <div class="panel-body">
         打开 Hiddify Next，进入主页点击“添加订阅”，输入机场提供的链接后确认。应用会自动同步节点并分类显示，支持一键测速与规则模式切换。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Mellow 的 TUN 模式与系统代理有何区别？</h5></div>
-    <div class="panel-body">
-        TUN 模式直接拦截 IP 层流量，实现全局代理，而系统代理通常仅影响支持代理的应用。TUN 更适合游戏、视频或全局科学上网场景，确保所有流量经过代理节点。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 是否还值得使用？</h5></div>
-    <div class="panel-body">
-        虽然 SSR 的开发早已停止，但由于它配置简单且部分节点仍然兼容，仍有一定使用场景。不过建议用户逐步迁移到更安全的新协议如 VLESS 或 Trojan，以获得更佳性能与隐蔽性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Hiddify Next 的主要用途是什么？</h5></div>
-    <div class="panel-body">
-        Hiddify Next 是 Hiddify 系列的新版本，集成了 VLESS、Trojan、Reality 等新型协议支持。它为用户提供一站式代理配置与分享功能，适合初学者快速上手使用。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Netch 的 UDP 转发模式适合哪些应用？</h5></div>
@@ -406,9 +381,34 @@ sudo systemctl start clash
         Sing-box 支持按域名匹配流量，将不同网站或应用流量分配到指定节点。结合策略组自动切换低延迟节点，可优化访问速度，保证网络稳定性并提高整体体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Mellow 与 Clash 的核心区别是什么？</h5></div>
+    <div class="panel-body">
+        Mellow 采用基于透明代理的架构，适合路由或系统级流量重定向，而 Clash 更偏向规则式应用代理。Mellow 的灵活性更高，但配置复杂；Clash 则兼顾易用性与功能扩展性。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>QuantumultX 可以按协议类型分流吗？</h5></div>
     <div class="panel-body">
-        支持。用户可按 TCP、UDP 或特定应用协议分流流量，结合策略组，实现游戏加速、视频优化或广告屏蔽等定制化网络策略，提高访问速度和稳定性。    </div>
+        支持。用户可按 TCP、UDP 或特定应用协议分流流量，结合策略组，实现游戏加速、视频优化或广告屏蔽等定制化网络策略，提高访问速度和稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Hiddify Next 的主要用途是什么？</h5></div>
+    <div class="panel-body">
+        Hiddify Next 是 Hiddify 系列的新版本，集成了 VLESS、Trojan、Reality 等新型协议支持。它为用户提供一站式代理配置与分享功能，适合初学者快速上手使用。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Mellow 的 TUN 模式与系统代理有何区别？</h5></div>
+    <div class="panel-body">
+        TUN 模式直接拦截 IP 层流量，实现全局代理，而系统代理通常仅影响支持代理的应用。TUN 更适合游戏、视频或全局科学上网场景，确保所有流量经过代理节点。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>SSR 是否还值得使用？</h5></div>
+    <div class="panel-body">
+        虽然 SSR 的开发早已停止，但由于它配置简单且部分节点仍然兼容，仍有一定使用场景。不过建议用户逐步迁移到更安全的新协议如 VLESS 或 Trojan，以获得更佳性能与隐蔽性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Potatso Lite 的节点导入方式有哪些？</h5></div>
+    <div class="panel-body">
+        Potatso Lite 支持通过手动添加节点信息或扫描二维码导入节点。虽然不支持自动订阅更新，但对轻量用户来说，手动方式足够使用，方便在 iOS 设备上管理节点。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -456,16 +456,16 @@ sudo systemctl start clash
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-8-20-free-clash.htm" title="V2ray翻墙 | 8月20日21M/S|免费SSR节点/Clash节点/Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点节点机场分享">V2ray翻墙 | 8月20日21M/S|免费SSR节点/Clash节点/Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点节点机场分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/free-clash-subscribe-2026-8-17.htm" title="V2ray翻墙 | 8月17日21.6M/S|免费V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Trojan节点/Clash节点节点机场分享">V2ray翻墙 | 8月17日21.6M/S|免费V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Trojan节点/Clash节点节点机场分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-22-node-share.htm" title="V2ray翻墙 | 8月22日19.6M/S|免费Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/V2ray节点/Clash节点节点机场分享">V2ray翻墙 | 8月22日19.6M/S|免费Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/V2ray节点/Clash节点节点机场分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-7-29.htm" title="V2ray翻墙 | 7月29日21.2M/S|免费V2ray节点/Trojan节点/Singbox节点/SSR节点/Shadowrocket节点/Clash节点节点机场分享">V2ray翻墙 | 7月29日21.2M/S|免费V2ray节点/Trojan节点/Singbox节点/SSR节点/Shadowrocket节点/Clash节点节点机场分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-8-19.htm" title="V2ray翻墙 | 8月19日20.2M/S|免费SSR节点/Shadowrocket节点/Singbox节点/Trojan节点/Clash节点/V2ray节点节点机场分享">V2ray翻墙 | 8月19日20.2M/S|免费SSR节点/Shadowrocket节点/Singbox节点/Trojan节点/Clash节点/V2ray节点节点机场分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-6-free-clash.htm" title="V2ray翻墙 | 8月6日22.7M/S|免费V2ray节点/Shadowrocket节点/SSR节点/Clash节点/Singbox节点/Trojan节点节点机场分享">V2ray翻墙 | 8月6日22.7M/S|免费V2ray节点/Shadowrocket节点/SSR节点/Clash节点/Singbox节点/Trojan节点节点机场分享</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-8-14-clash-v2ray-ss-ssr.htm" title="V2ray翻墙 | 8月14日20M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点/Trojan节点节点机场分享">V2ray翻墙 | 8月14日20M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点/Trojan节点节点机场分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-4-clash-node.htm" title="V2ray翻墙 | 8月4日20.6M/S|免费Singbox节点/Shadowrocket节点/SSR节点/V2ray节点/Trojan节点/Clash节点节点机场分享">V2ray翻墙 | 8月4日20.6M/S|免费Singbox节点/Shadowrocket节点/SSR节点/V2ray节点/Trojan节点/Clash节点节点机场分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-8-7.htm" title="V2ray翻墙 | 8月7日22.2M/S|免费SSR节点/Clash节点/Singbox节点/Trojan节点/V2ray节点/Shadowrocket节点节点机场分享">V2ray翻墙 | 8月7日22.2M/S|免费SSR节点/Clash节点/Singbox节点/Trojan节点/V2ray节点/Shadowrocket节点节点机场分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-24-free-clash.htm" title="V2ray翻墙 | 8月24日20.7M/S|免费Shadowrocket节点/Clash节点/V2ray节点/Singbox节点/Trojan节点/SSR节点节点机场分享">V2ray翻墙 | 8月24日20.7M/S|免费Shadowrocket节点/Clash节点/V2ray节点/Singbox节点/Trojan节点/SSR节点节点机场分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/shadowrocket-node-2026-8-15.htm" title="V2ray翻墙 | 8月15日18.9M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点节点机场分享">V2ray翻墙 | 8月15日18.9M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点节点机场分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/shadowrocket-node-2026-8-9.htm" title="V2ray翻墙 | 8月9日18.8M/S|免费Trojan节点/Singbox节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点节点机场分享">V2ray翻墙 | 8月9日18.8M/S|免费Trojan节点/Singbox节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点节点机场分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-8-21.htm" title="V2ray翻墙 | 8月21日20.1M/S|免费SSR节点/Trojan节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点节点机场分享">V2ray翻墙 | 8月21日20.1M/S|免费SSR节点/Trojan节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点节点机场分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-clash-subscribe-2026-9-3.htm" title="V2ray翻墙 | 9月3日21.5M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/SSR节点节点机场分享">V2ray翻墙 | 9月3日21.5M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/SSR节点节点机场分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-16-free-node-subscribe.htm" title="V2ray翻墙 | 8月16日20.4M/S|免费Clash节点/Singbox节点/SSR节点/Trojan节点/V2ray节点/Shadowrocket节点节点机场分享">V2ray翻墙 | 8月16日20.4M/S|免费Clash节点/Singbox节点/SSR节点/Trojan节点/V2ray节点/Shadowrocket节点节点机场分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-28-clash-v2ray-ss-ssr.htm" title="V2ray翻墙 | 8月28日20.4M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Clash节点/Trojan节点/SSR节点节点机场分享">V2ray翻墙 | 8月28日20.4M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Clash节点/Trojan节点/SSR节点节点机场分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-clash-subscribe-2026-8-29.htm" title="V2ray翻墙 | 8月29日20.5M/S|免费SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点/Trojan节点节点机场分享">V2ray翻墙 | 8月29日20.5M/S|免费SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点/Trojan节点节点机场分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-4-node-share.htm" title="V2ray翻墙 | 9月4日22.3M/S|免费Clash节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Trojan节点节点机场分享">V2ray翻墙 | 9月4日22.3M/S|免费Clash节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Trojan节点节点机场分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-clash-subscribe-2026-8-17.htm" title="V2ray翻墙 | 8月17日21.6M/S|免费V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Trojan节点/Clash节点节点机场分享">V2ray翻墙 | 8月17日21.6M/S|免费V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Trojan节点/Clash节点节点机场分享</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -477,10 +477,10 @@ sudo systemctl start clash
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">29</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
+                <h4><span class="badge" style="float: right;">4</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">13</span> <a href="/date/2026-07/" title="2026-07 归档">2026-07</a></h4>
+                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
             </li>
                     </ul>
     </div>
